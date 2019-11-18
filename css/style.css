@@ -1,1 +1,47 @@
 /* Site Styles Go Here */
+.footer-flex {
+display:flex;
+flex-directiion: row;
+justify-content: space-between
+}
+.footer-item-flex {
+flex: 0 1 auto;
+}
+.shrink:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+.threed:hover
+{
+        box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+  [title~=flower] {
+    border: 5px solid #038444;
+  }
+  /* unvisited link */
+a:link {
+    color: rgb(100, 255, 175);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: orange;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(165, 165, 231);
+  }

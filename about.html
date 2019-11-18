@@ -2,19 +2,33 @@
 <html lang="en">
 
 <head>
-
+    <style type="text/css">
+      body > div
+      {
+                  transition:all 0.3s ease;
+      }
+      </style>
+      <style>
+          [title~=flower] {
+            border: 5px solid #038444;
+          }
+          </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Modern Business - Start Bootstrap Template</title>
+  <title>About- Eyeballs Pillow</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="design/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="design/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="design/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="design/favicon_io/site.webmanifest">
 
 </head>
 
@@ -22,60 +36,46 @@
 
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Portfolio
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
+      <div class="container">
+          <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categories
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                    <a class="dropdown-item" href="portfolio-1-col.html"> Animals</a>
+                    <a class="dropdown-item" href="portfolio-2-col.html"> Misc</a>
+                    <a class="dropdown-item" href="portfolio-3-col.html"> Scenery</a>
+    
+                  </div>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Other Pages
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                    <a class="dropdown-item" href="faq.html">FAQ</a>
+                    <a class="dropdown-item" href="404.html">404</a>
+                  </div>
+                </li>
+              </ul>
             </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Blog
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-              <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-              <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Other Pages
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-              <a class="dropdown-item" href="faq.html">FAQ</a>
-              <a class="dropdown-item" href="404.html">404</a>
-              <a class="dropdown-item" href="pricing.html">Pricing Table</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+          </div>
+        </nav>
+      </nav>
 
   <!-- Page Content -->
   <div class="container">
@@ -94,8 +94,8 @@
 
     <!-- Intro Content -->
     <div class="row">
-      <div class="col-lg-6">
-        <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" alt="">
+      <div class="threed col-lg-6">
+        <img class="img-responsive img-fluid rounded mb-4" src="images/about/alexandru-zdrobau-_STvosrG-pw-unsplash.jpg" title="flower"alt="">
       </div>
       <div class="col-lg-6">
         <h2>About Modern Business</h2>
@@ -110,9 +110,9 @@
     <h2>Our Team</h2>
 
     <div class="row">
-      <div class="col-lg-4 mb-4">
+      <div class="shrink col-lg-4 mb-4">
         <div class="card h-100 text-center">
-          <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+          <img class="img-responsive card-img-top" src="images/about/fabrizio-conti-Mbm0WnJ5emc-unsplash.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Team Member</h4>
             <h6 class="card-subtitle mb-2 text-muted">Position</h6>
@@ -123,9 +123,9 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 mb-4">
+      <div class="shrink col-lg-4 mb-4">
         <div class="card h-100 text-center">
-          <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+          <img class="img-responsive card-img-top" src="images/about/kalen-emsley-_LuLiJc1cdo-unsplash.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Team Member</h4>
             <h6 class="card-subtitle mb-2 text-muted">Position</h6>
@@ -136,9 +136,9 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 mb-4">
+      <div class="shrink col-lg-4 mb-4">
         <div class="card h-100 text-center">
-          <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+          <img class="img-responsive card-img-top" src="images/about/piotr-laskawski-GXMr7BadXQo-unsplash.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Team Member</h4>
             <h6 class="card-subtitle mb-2 text-muted">Position</h6>
@@ -156,7 +156,7 @@
     <h2>Our Customers</h2>
     <div class="row">
       <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        <img class="img-responsive img-fluid" src="http://placehold.it/500x300" alt="">
       </div>
       <div class="col-lg-2 col-sm-4 mb-4">
         <img class="img-fluid" src="http://placehold.it/500x300" alt="">
@@ -181,9 +181,13 @@
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
-    </div>
+      <link href="css/style.css" rel="stylesheet">
+      <div class="container">
+        <div class="footer-flex">
+      <p class="footer-item-flex text-white">Copyright &copy; 2019</p>
+        <p class="footer-item-flex text-white">Joshua Tzeng</p>
+        </div>
+        </div>
     <!-- /.container -->
   </footer>
 
